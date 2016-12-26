@@ -11,18 +11,13 @@
 	https://coolors.co/221d3c-5e4955-996888-c99da3-c6ddf0
 *                   
 **/
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
 
 .body {
 
 	background-color:#eee;
 	background-image: url("../images/diamond-upholstery.png");
 	color:#d3c44e;
-	min-height: 1000px;
+	min-height: 2000px;
 
 }
 
@@ -42,12 +37,11 @@
 }
 	
 .maincats{
-	background-color:#996888;
+	background-color:#381D2A;
 
 }	
 
 .content {
-	
 	background-color: #333;
 }
 
@@ -67,17 +61,20 @@
 
 }
 
+.billboardimg {
+	/*box-shadow: 0px 0px 30px #262644;*/
+	margin:auto;
+	position:relative;
+	z-index: 1;
+}
+
 .largeitem {
 	padding: 5px;
-	box-shadow: 0px 0px 30px #fff;
+	/*box-shadow: 0px 0px 30px #fff;*/
 	background-color: none;
 	border-radius: 20px;
 }
 
-.body2 {
-	width: 100%;
-	border: 0px solid white;
-}
 
 .lowerlabel {
 	text-align: center;
@@ -87,11 +84,8 @@
 
 }
 
-#lowerwines {
-	background-color: #333;
-}
 
-.nav{
+/*.nav{
 height: 40px;
 overflow:visible;
 background-color: #10101D;
@@ -106,38 +100,8 @@ width:100%;
 	color: #cfee9e;
 	z-index:1;
 
-}
+}*/
 
-.buttonsrow {
-	background-color: #10101D;
-
-}
-
-.vertical {
-	
-
-
-}
-
-.billboardimg {
-	box-shadow: 0px 0px 30px #262644;
-	margin:auto;
-	position:relative;
-	z-index: 1;
-}
-
-.tagline {
-	
-    box-shadow: 0px 0px 15px #fff;
-
-}
-
-.tagline p {
-	padding: 5px;
-	box-shadow: 0px 0px 15px #fff;
-
-
-}
 
 
 

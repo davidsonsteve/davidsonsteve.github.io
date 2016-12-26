@@ -23,22 +23,107 @@ $("#blog").hide();
 
     $("#winebutton").click(function(){
 
-       $( "#winelist" ).slideToggle( 1000);
+      if( $( "#winelist" ).is(":visible")) {
+        $("#winelist").slideUp(800);
+        $("#winebutton").removeAttr("style");
+      }
+      else{
+        $( "#winelist" ).slideToggle( 1000);
+        $("#winebutton").css("box-shadow"," 0px 0px 30px #eee").css("border-radius","20px");
+      }
+
+      if( $( "#winemaking" ).is(":visible")) {
+        $("#winemaking").slideUp(800);
+        $("#makingbutton").removeAttr("style");
+      }
+      if( $( "#projects" ).is(":visible")) {
+        $("#projects").slideUp(800);
+        $("#projectsbutton").removeAttr("style");
+      }
+      if( $( "#blog" ).is(":visible")) {
+        $("#blog").slideUp(800);
+        $("#blogbutton").removeAttr("style");
+      }
+
         
     });
 
     $("#makingbutton").click(function(){
-       $( "#winemaking" ).slideToggle( 1000);
-        
+
+      if( $( "#winemaking" ).is(":visible")) {
+        $("#winemaking").slideUp(800);
+        $("#makingbutton").removeAttr("style");
+      }
+      else{
+        $( "#winemaking" ).slideToggle( 1000);
+        $("#makingbutton").css("box-shadow"," 0px 0px 30px #eee").css("border-radius","20px");
+      }
+
+      if( $( "#winelist" ).is(":visible")) {
+        $("#winelist").slideUp(800);
+        $("#winebutton").removeAttr("style");
+      }
+      if( $( "#projects" ).is(":visible")) {
+        $("#projects").slideUp(800);
+        $("#projectsbutton").removeAttr("style");
+      }
+      if( $( "#blog" ).is(":visible")) {
+        $("#blog").slideUp(800);
+        $("#blogbutton").removeAttr("style");
+      }
+
+     
     });
 
     $("#projectsbutton").click(function(){
-       $( "#projects" ).slideToggle( 1000);
+
+      if( $( "#projects" ).is(":visible")) {
+        $("#projects").slideUp(800);
+        $("#projectsbutton").removeAttr("style");
+      }
+      else{
+        $( "#projects" ).slideToggle( 1000);
+        $("#projectsbutton").css("box-shadow"," 0px 0px 30px #eee").css("border-radius","20px");
+      }
+
+      if( $( "#winelist" ).is(":visible")) {
+        $("#winelist").slideUp(800);
+        $("#winebutton").removeAttr("style");
+      }
+      if( $( "#winemaking" ).is(":visible")) {
+        $("#winemaking").slideUp(800);
+        $("#makingbutton").removeAttr("style");
+      }
+      if( $( "#blog" ).is(":visible")) {
+        $("#blog").slideUp(800);
+        $("#blogbutton").removeAttr("style");
+      }
         
     });
 
     $("#blogbutton").click(function(){
-       $( "#blog" ).slideToggle( 1000);
+
+      if( $( "#blog" ).is(":visible")) {
+        $("#blog").slideUp(800);
+        $("#blogbutton").removeAttr("style");
+      }
+      else{
+        $( "#blog" ).slideToggle( 1000);
+        $("#blogbutton").css("box-shadow"," 0px 0px 30px #eee").css("border-radius","20px");
+      }
+
+      if( $( "#winelist" ).is(":visible")) {
+        $("#winelist").slideUp(800);
+        $("#winebutton").removeAttr("style");
+      }
+      if( $( "#winemaking" ).is(":visible")) {
+        $("#winemaking").slideUp(800);
+        $("#makingbutton").removeAttr("style");
+      }
+      if( $( "#projects" ).is(":visible")) {
+        $("#projects").slideUp(800);
+        $("#projectsbutton").removeAttr("style");
+      }
         
     });
 
