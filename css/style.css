@@ -52,6 +52,7 @@
 .bigbuttons {
 	margin-top: 15px;
 	margin-bottom: 5px;
+	padding-top:10px;
 }
 
 .billboard {
@@ -66,13 +67,16 @@
 	margin:auto;
 	position:relative;
 	z-index: 1;
+
+
 }
 
 .largeitem {
 	padding: 5px;
-	/*box-shadow: 0px 0px 30px #fff;*/
+	box-shadow: 0px 0px 30px #c99da3;
 	background-color: none;
 	border-radius: 20px;
+	
 }
 
 
