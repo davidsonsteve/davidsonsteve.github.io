@@ -24,7 +24,7 @@ $("#blog").hide();
     $("#winebutton").click(function(){
 
       if( $( "#winelist" ).is(":visible")) {
-        $("#winelist").fadeOut(1000).slideUp(800);
+        $("#winelist").slideUp(800);
         $("#winebutton").removeAttr("style");
       }
       else{
