@@ -1,7 +1,7 @@
 ﻿
 /** Color Palatte: 
-	https://coolors.co/20183f-5e5c5e-686587-d3c44e-82ab1a
-	https://coolors.co/1e2019-394032-686587-8dab7f-
+	https://coolors.co/20183f-5e5c5e-686587-d3c44e
+	https://coolors.co/1e2019-394032-686587-8dab7f-82ab1a
 
 	https://coolors.co/4e5340-95a3a4-686587-b7d1da-e2e8dd
 
@@ -37,12 +37,13 @@
 }
 	
 .maincats{
-	background-color:#381D2A;
+	background-color:#394032;
 
 }	
 
-.content {
-	background-color: #333;
+.lowermenu {
+	background-color:#394032;
+	
 }
 
 .bblabel {
@@ -52,13 +53,12 @@
 .bigbuttons {
 	margin-top: 15px;
 	margin-bottom: 5px;
-	padding-top:10px;
 }
 
 .billboard {
 
 	padding: 1%;
-	background-color: #10101D;
+	background-color: #394032;
 
 }
 
@@ -73,7 +73,7 @@
 
 .largeitem {
 	padding: 5px;
-	box-shadow: 0px 0px 30px #c99da3;
+	box-shadow: 0px 0px 30px #000;
 	background-color: none;
 	border-radius: 20px;
 	
