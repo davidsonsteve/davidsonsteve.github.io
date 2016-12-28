@@ -41,7 +41,7 @@ function mainmenuclick(button, label, lowermenu){
       $("#projects").fadeOut(300,"swing");
       $("#blog").fadeOut(300,"swing");
       $(lowermenu).delay( 300 ).fadeIn( 700,"swing");
-      $(button).css("box-shadow"," 0px 0px 20px #c6ddf0");
+      $(button).css("box-shadow"," 0px 0px 20px #c3ccbb");
       $(label).css("text-shadow"," 0px 2px 8px #333");
     }
 }
