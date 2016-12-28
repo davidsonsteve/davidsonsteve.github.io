@@ -17,143 +17,58 @@ $("#blog").hide();
 	
 
 // }
+function mainmenuclick(button, label, lowermenu){
+  // $(button).removeAttr("style");
+  // $(label).removeAttr("label");
 
+  if( $(lowermenu).is(":visible")) {
+      $(lowermenu).fadeOut(300,"swing");
+      $(button).removeAttr("style");
+      $(label).removeAttr("style");
+
+    }
+    else{
+      $("#winebutton").removeAttr("style");
+      $("#wineslabel").removeAttr("style");
+      $("#makingbutton").removeAttr("style");
+      $("#makinglabel").removeAttr("style");
+      $("#projectsbutton").removeAttr("style");
+      $("#projectslabel").removeAttr("style");
+      $("#blogbutton").removeAttr("style");
+      $("#bloglabel").removeAttr("style");
+      $("#winelist").fadeOut(300,"swing");
+      $("#winemaking").fadeOut(300,"swing");
+      $("#projects").fadeOut(300,"swing");
+      $("#blog").fadeOut(300,"swing");
+      $(lowermenu).delay( 300 ).fadeIn( 700,"swing");
+      $(button).css("box-shadow"," 0px 0px 20px #c6ddf0");
+      $(label).css("text-shadow"," 0px 2px 8px #333");
+    }
+}
 
 // on click actions: hide button, show extra info.
 
     $("#winebutton").click(function(){
 
-      if( $( "#winelist" ).is(":visible")) {
-        $("#winelist").fadeOut(200,"swing");
-        $("#winebutton").removeAttr("style");
-        $("#makinglabel").fadeIn(300,"swing");
-        $("#projectslabel").fadeIn(300,"swing");
-        $("#bloglabel").fadeIn(300,"swing");
-      }
-      else{
-        $("#wineslabel").fadeIn(300,"swing");
-        $("#makinglabel").fadeOut(300,"swing");
-        $("#projectslabel").fadeOut(300,"swing");
-        $("#bloglabel").fadeOut(300,"swing");
-        $( "#winelist" ).delay( 300 ).fadeToggle( 1000,"swing");
-        $("#winebutton").css("box-shadow"," 0px 0px 20px #c6ddf0").css("border-radius","20px");
-        
-      }
-
-      if( $( "#winemaking" ).is(":visible")) {
-        $("#winemaking").fadeOut(200,"swing");
-        $("#makingbutton").removeAttr("style");
-      }
-      if( $( "#projects" ).is(":visible")) {
-        $("#projects").fadeOut(200,"swing");
-        $("#projectsbutton").removeAttr("style");
-      }
-      if( $( "#blog" ).is(":visible")) {
-        $("#blog").fadeOut(200,"swing");
-        $("#blogbutton").removeAttr("style");
-      }
-
+      mainmenuclick("#winebutton","#wineslabel","#winelist");
         
     });
 
     $("#makingbutton").click(function(){
 
-      if( $( "#winemaking" ).is(":visible")) {
-        $("#winemaking").fadeOut(200,"swing");
-        $("#makingbutton").removeAttr("style");
-        $("#wineslabel").fadeIn(300,"swing");
-        $("#projectslabel").fadeIn(300,"swing");
-        $("#bloglabel").fadeIn(300,"swing");
-      }
-      else{
-        $("#makinglabel").fadeIn(300,"swing");
-        $("#wineslabel").fadeOut(300,"swing");
-        $("#projectslabel").fadeOut(300,"swing");
-        $("#bloglabel").fadeOut(300,"swing");
-        $( "#winemaking" ).delay( 300 ).fadeToggle( 1000,"swing");
-        $("#makingbutton").css("box-shadow"," 0px 0px 20px #c6ddf0").css("border-radius","20px");
-        
-      }
+      mainmenuclick("#makingbutton","#makinglabel","#winemaking");
 
-      if( $( "#winelist" ).is(":visible")) {
-        $("#winelist").fadeOut(200,"swing");
-        $("#winebutton").removeAttr("style");
-      }
-      if( $( "#projects" ).is(":visible")) {
-        $("#projects").fadeOut(200,"swing");
-        $("#projectsbutton").removeAttr("style");
-      }
-      if( $( "#blog" ).is(":visible")) {
-        $("#blog").fadeOut(200,"swing");
-        $("#blogbutton").removeAttr("style");
-      }
-
-     
     });
 
     $("#projectsbutton").click(function(){
 
-      if( $( "#projects" ).is(":visible")) {
-        $("#projects").fadeOut(200,"swing");
-        $("#projectsbutton").removeAttr("style");
-        $("#wineslabel").fadeIn(300,"swing");
-        $("#makinglabel").fadeIn(300,"swing");
-        $("#bloglabel").fadeIn(300,"swing");
-      }
-      else{
-        $("#projectslabel").fadeIn(300,"swing");
-        $( "#projects" ).delay( 300 ).fadeToggle( 1000,"swing");
-        $("#projectsbutton").css("box-shadow"," 0px 0px 20px #c6ddf0").css("border-radius","20px");
-        $("#wineslabel").fadeOut(300,"swing");
-        $("#makinglabel").fadeOut(300,"swing");
-        $("#bloglabel").fadeOut(300,"swing");
-      }
-
-      if( $( "#winelist" ).is(":visible")) {
-        $("#winelist").fadeOut(200,"swing");
-        $("#winebutton").removeAttr("style");
-      }
-      if( $( "#winemaking" ).is(":visible")) {
-        $("#winemaking").fadeOut(200,"swing");
-        $("#makingbutton").removeAttr("style");
-      }
-      if( $( "#blog" ).is(":visible")) {
-        $("#blog").fadeOut(200,"swing");
-        $("#blogbutton").removeAttr("style");
-      }
+      mainmenuclick("#projectsbutton","#projectslabel","#projects");
         
     });
 
     $("#blogbutton").click(function(){
 
-      if( $( "#blog" ).is(":visible")) {
-        $("#blog").fadeOut(200,"swing");
-        $("#blogbutton").removeAttr("style");
-        $("#wineslabel").fadeIn(300,"swing");
-        $("#makinglabel").fadeIn(300,"swing");
-        $("#projectslabel").fadeIn(300,"swing");
-      }
-      else{
-        $("#bloglabel").fadeIn(300,"swing");
-        $( "#blog" ).delay( 300 ).fadeToggle( 1000,"swing");
-        $("#blogbutton").css("box-shadow"," 0px 0px 20px #c6ddf0").css("border-radius","20px");
-        $("#wineslabel").fadeOut(300,"swing");
-        $("#makinglabel").fadeOut(300,"swing");
-        $("#projectslabel").fadeOut(300,"swing");
-      }
-
-      if( $( "#winelist" ).is(":visible")) {
-        $("#winelist").fadeOut(200,"swing");
-        $("#winebutton").removeAttr("style");
-      }
-      if( $( "#winemaking" ).is(":visible")) {
-        $("#winemaking").fadeOut(200,"swing");
-        $("#makingbutton").removeAttr("style");
-      }
-      if( $( "#projects" ).is(":visible")) {
-        $("#projects").fadeOut(200,"swing");
-        $("#projectsbutton").removeAttr("style");
-      }
+      mainmenuclick("#blogbutton","#bloglabel","#blog");
         
     });
 

@@ -37,17 +37,18 @@
 }
 	
 .maincats{
-	background-color:#394032;
+	background-color:rgba(57,64,50,0.7);
 
 }	
 
 .lowermenu {
-	background-color:#394032;
+	/*background-color:#394032;*/
 	
 }
 
 .bblabel {
 	text-align: center;
+	
 }
 
 .bigbuttons {
@@ -72,10 +73,10 @@
 }
 
 .largeitem {
-	padding: 5px;
-	box-shadow: 0px 0px 30px #000;
+	padding: 2px;
+	box-shadow: 0px 0px 20px #000;
 	background-color: none;
-	border-radius: 20px;
+	
 	
 }
 
