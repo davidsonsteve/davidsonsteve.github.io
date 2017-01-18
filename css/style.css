@@ -16,7 +16,7 @@
 
 	background-color:#eee;
 	background-image: url("../images/diamond-upholstery.png");
-	color:#d3c44e;
+	color:#262644;
 	min-height: 2000px;
 
 }
@@ -45,6 +45,8 @@
 	/*background-color:#394032;*/
 	
 }
+
+
 
 .bblabel {
 	text-align: center;
@@ -89,24 +91,46 @@
 
 }
 
+.vintage {
+	 background-color: green;
+	 margin-left:3px;
+	 margin-right: 3px;
+	 padding: 3px;
+}
 
-/*.nav{
-height: 40px;
-overflow:visible;
-background-color: #10101D;
-width:100%;
+.lltitle {
+	font-weight:bold;
+	color: #262644;
+}
+
+.winecard {
+	background-color: #dbd6c7;
+}
+
+.winetitle {
+	color: #262644;
+	padding: 15px;
+	background-color: #9ea89a;
+	box-shadow: 0px 0px 10px #333;
+}
+
+.lldesc {
+	font-style: italic;
 
 }
 
-.navlinks {
-	position: relative;
-	padding:3px;
-	text-align:right;
-	color: #cfee9e;
-	z-index:1;
+.wine-sq {
+	margin: 10px;
+	float:right;
+	padding: 7px;
+	box-shadow: 0px 0px 10px #333;
+	background-color: white;
+}
 
-}*/
+#fibb14 {
+	 background-color: black;
 
+	}
 
 
 

@@ -42,7 +42,7 @@ function mainmenuclick(button, label, lowermenu){
       $("#blog").fadeOut(300,"swing");
       $(lowermenu).delay( 300 ).fadeIn( 700,"swing");
       $(button).css("box-shadow"," 0px 0px 20px #c3ccbb");
-      $(label).css("text-shadow"," 0px 2px 8px #333");
+      $(label).css("text-shadow"," 0px 2px 8px #333").css("color","#c3ccbb");
     }
 }
 
