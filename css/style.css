@@ -1,18 +1,4 @@
-﻿
-/** Color Palatte: 
-	https://coolors.co/20183f-5e5c5e-686587-d3c44e
-	https://coolors.co/1e2019-394032-686587-8dab7f-82ab1a
-
-	https://coolors.co/4e5340-95a3a4-686587-b7d1da-e2e8dd
-
-	2A3D45 japanese indigo
-	484041 dark puce
-	381D2A dark purple
-	https://coolors.co/221d3c-5e4955-996888-c99da3-c6ddf0
-*                   
-**/
-
-.top-menu {
+﻿.top-menu {
   background-color: #3366c1;
   color: white;
   padding: 5px 5px 0px 5px;
