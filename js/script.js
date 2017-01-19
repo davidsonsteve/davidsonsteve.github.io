@@ -46,7 +46,7 @@ function mainmenuclick(button, label, lowermenu){
     }
 }
 
-// on click actions: hide button, show extra info.
+// on click actions: hide button, show extra info..
 
     $("#winebutton").click(function(){
 
