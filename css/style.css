@@ -12,126 +12,159 @@
 *                   
 **/
 
-.body {
-
-	background-color:#eee;
-	background-image: url("../images/diamond-upholstery.png");
-	color:#262644;
-	min-height: 2000px;
-
+.top-menu {
+  background-color: #3366c1;
+  color: white;
+  padding: 5px 5px 0px 5px;
+  font-size: 1.3em;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
-.about {
-	text-align: center;
+.top-menu a:hover {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: normal;
+  border-bottom: 5px solid white;
 }
 
-.about-text {
-	font-size: 220%;
-	font-family: courier;
-	padding:8%;
-	color: #dbd6c7;
+.top-menu a {
+  color: #333;
+  padding: 5px 5px 0px 5px;
+  border-radius: 0%;
+  font-weight: bold;
 }
 
-.disclaimer-text {
-	font-size: 50%;
-	color: #221d3c;
-}
-	
-.maincats{
-	background-color:rgba(57,64,50,0.7);
-
-}	
-
-.lowermenu {
-	/*background-color:#394032;*/
-	
+.steve {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 0px;
 }
 
-
-
-.bblabel {
-	text-align: center;
-	
+.davidson {
+  border-top: 4px solid white;
+  border-bottom: 0px solid white;
+  font-size: .9em;
+  margin-left: -2px;
 }
 
-.bigbuttons {
-	margin-top: 15px;
-	margin-bottom: 5px;
+.space {
+  background-color: none;
+  margin-top: 40px;
 }
 
-.billboard {
-
-	padding: 1%;
-	background-color: #394032;
-
+#about {
+  margin-top: 40px;
+  background: url("https://drive.google.com/uc?id=0BxinRlnGqWlXSDhWakNNYUtUX3c") no-repeat center fixed;
+  background-size: cover;
+  opacity: 0.9;
 }
 
-.billboardimg {
-	/*box-shadow: 0px 0px 30px #262644;*/
-	margin:auto;
-	position:relative;
-	z-index: 1;
-
-
+.social {
+  margin-bottom: 20px;
+  
 }
 
-.largeitem {
-	padding: 2px;
-	box-shadow: 0px 0px 20px #000;
-	background-color: none;
-	
-	
+h1 {
+  padding-left: 5%;
+  color: white;
+  text-shadow: 0px 0px 10px #000;
 }
 
-
-.lowerlabel {
-	text-align: center;
-	width:100%;
-	background-color: #fff;
-	margin-top:10px;
-
+h3 {
+  color: white;
+  padding-left: 6%;
+  text-shadow: 0px 0px 10px #000;
 }
 
-.vintage {
-	 background-color: green;
-	 margin-left:3px;
-	 margin-right: 3px;
-	 padding: 3px;
+p {
+  color: black;
+  background: none;
+  font-size: 1.1em;
+  padding-right: 1%;
+  font-weight: bold;
+  padding-left: 5%;
+  text-shadow: 0px 0px 10px #fff;
 }
 
-.lltitle {
-	font-weight:bold;
-	color: #262644;
+h2 {
+  font-size: 1.4em;
+  color: white;
+  text-shadow: 0px 0px 10px #000;
 }
 
-.winecard {
-	background-color: #dbd6c7;
+.imageme {
+  float: left;
+  border: 5px solid white;
+  width: 30%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 20px;
 }
 
-.winetitle {
-	color: #262644;
-	padding: 15px;
-	background-color: #9ea89a;
-	box-shadow: 0px 0px 10px #333;
+.githubbutton {
+  background-color: black;
+  color: white;
 }
 
-.lldesc {
-	font-style: italic;
-
+.flickrbutton {
+  background-color: #ff0084;
+  color: white;
 }
 
-.wine-sq {
-	margin: 10px;
-	float:right;
-	padding: 7px;
-	box-shadow: 0px 0px 10px #333;
-	background-color: white;
+.fccbutton {
+  background-color: #075002;
+  color: white;
 }
 
-#fibb14 {
-	 background-color: black;
+.twitterbutton {
+  background-color: #33ccff;
+  color: white;
+}
 
-	}
+.gplusbutton {
+  background-color: #d34836;
+  color: white;
+}
 
+.linkedinbutton {
+  background-color: #0077b5;
+  color: white;
+}
 
+.portfoliorow {
+  background: url("https://drive.google.com/uc?id=0BxinRlnGqWlXSEpURWxLZS1iZWc") repeat-y center fixed;
+  background-size: 100%;
+  background-color: black;
+  opacity: 0.9;
+}
 
+.portfolio {
+  background: url("https://drive.google.com/uc?id=0BxinRlnGqWlXSEpURWxLZS1iZWc") no-repeat center fixed;
+  background-size: cover;
+}
+
+.portfolio-element {
+  font-size: 1.2em;
+}
+
+.portpreview {
+  margin: 5px;
+  border-radius: 15px;
+  border: 3px solid steelblue;
+}
+
+#contact {
+  background: url("https://drive.google.com/uc?id=0BxinRlnGqWlXaTVqa040NHZUaUU") no-repeat center fixed;
+  background-size: 100%;
+  background-color: gray;
+  opacity: 0.9;
+}
+
+.devlogos {
+  font-size: 3em;
+  text-
+}
